@@ -21,13 +21,14 @@ This is a Laravel-based backend service that fetches real-time and hourly foreca
 - `app/Services/WeatherService.php` — Talks to Open-Meteo API
 - `app/Http/Resources/WeatherResource.php` — Formats the response
 - `routes/api.php` — Registers the `/api/weather` route
+-  `GET http://127.0.0.1:8000/api/weather?lat=30.033&lon=31.233` — Example for test API
 
 ---
 
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/laravel-weather-api.git
+git clone https://github.com/HeshamMohamed93/laravel-weather-api.git
 cd laravel-weather-api
 
 # Set up environment
